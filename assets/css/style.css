@@ -72,7 +72,7 @@ p{
 .loader {
  width: 8vmax;
  height: 8vmax;
- border-right: 4px solid #4db570;
+ border-right: 4px solid #ff6600;
  border-radius: 100%;
  animation: spinRight 800ms linear infinite;
 }
@@ -84,7 +84,7 @@ p{
  position: absolute;
  top: calc(50% - 3vmax);
  left: calc(50% - 3vmax);
- border-left: 3px solid #4db570;
+ border-left: 3px solid #ff6600;
  border-radius: 100%;
  animation: spinLeft 800ms linear infinite;
 }
@@ -94,7 +94,7 @@ p{
  top: calc(50% - 2vmax);
  left: calc(50% - 2vmax);
  border: 0;
- border-right: 2px solid #4db570;
+ border-right: 2px solid #ff6600;
  animation: none;
 }
 @keyframes spinLeft {
@@ -129,7 +129,7 @@ header {
   top: 0;
   z-index: 3;
   padding: 10px;
-  background-color: #fff;
+  background-color: #ff6600;
   box-shadow: 0 2px 10px #b3beb6;
 }
 .navbar-toggler {
@@ -149,7 +149,7 @@ header {
   height: 4px;
   background-image: none;
   position: relative;
-  background: #4db570;
+  background: #ff6600;
   transition: all 300ms linear;
   border-radius: 4px;
 }
@@ -160,7 +160,7 @@ header {
   width: 29px;
   position: absolute;
   height: 4px;
-  background-color: #4db570;
+  background-color: #ff6600;
   top: -20px;
   left: -7px;
   content: '';
@@ -176,7 +176,7 @@ header {
 }
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transform: rotate(45deg);
-  background-color: #4db570;
+  background-color: #ff6600;
   width: 26px;
   height:3px;
   top: 0px;
@@ -184,7 +184,7 @@ header {
 }
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   transform: translateY(8px) rotate(-45deg);
-  background-color: #4db570;
+  background-color: #ff6600;
   width: 26px;
   height: 3px;
   top: -8px;
@@ -197,7 +197,7 @@ header {
   top: 1px;
 }
 .navbar-brand img{
-  width: 250px;
+  width: 450px;
 }
 .nav-item{
   margin: 0 14px;
@@ -230,16 +230,16 @@ header {
   background: #ff6600;
 }
 .nav-item:hover .nav-link, .nav-item.active .nav-link{
-  color: #ff6600 !important;
+  color: #fff !important;
 }
 /*Header*/
 
 /*Banner*/
 
 .banner-wrapper {
-  background-image: url(../images/unit-2.jpg);
+  background-image: url(../images/mtc-5.jpg);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center center;
   background-size: cover;
   width: 100%;
   padding: 200px 0 100px 0;
@@ -265,9 +265,12 @@ header {
  font-weight: bold;
  padding: 10px 0;
 }
-.heading b, .sub-heading b{
+/*.heading b, .sub-heading b{
   color: #4db570;
-}
+}*/
+/*.heading b, .sub-heading b{
+  color: #ff6600;
+}*/
 .sub-text{
   color: #ff6600;
   font-size: 30px;
@@ -316,7 +319,7 @@ header {
   padding: 100px 0;
 }
 .hr-line{
-  border: 1px dotted #4db570;
+  border: 1px dotted #ff6600;
   width: 180px;
   margin: 10px 0;
 }
@@ -337,7 +340,7 @@ header {
   .cap-letter::first-letter {
     -webkit-initial-letter: 3;
     initial-letter: 3;
-    color: #4db570;
+    color: #ff6600;
     margin-right: 10px;
     font-weight: bold;
   }
@@ -368,16 +371,16 @@ header {
     text-align: center;
     padding: 40px 20px;
     border-radius: 20px;
-    background-color: #4db57017;
-    box-shadow: 0px 0px 2px 0px #4db570;
+    background-color: transparent;
+    box-shadow: 0px 0px 2px 0px #ff6600;
     background-image: url(../images/about-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
   }
-  .choose-wrap:hover{
-    background-color: transparent;
-  }
+ /* .choose-wrap:hover{
+    background-color: #ff660017;
+  }*/
   .choose-box {
    transition: transform .500s ease-out;
    overflow: hidden;
@@ -386,7 +389,7 @@ header {
   transform: scale(1.1); 
 }
 .choose-box i {
-  color: #4db570;
+  color: #ff6600;
   font-size: 40px;
   width: 100px;
   height: 100px;
@@ -397,10 +400,10 @@ header {
   margin: 0 auto;
   border-radius: 50%;
   margin-bottom: 20px;
-  border: 2px solid #4db570;
+  border: 2px solid #ff6600;
 }
 .choose-box h4{
-  color: #4db570;
+  color: #ff6600;
   font-size: 22px;
 }
 
@@ -427,7 +430,6 @@ header {
   padding-left: 40px;
 }
 .solution-heading h3{
-  color: #4db570;
   font-weight: 600;
   line-height: 32px;
   font-size: 26px;
@@ -469,11 +471,11 @@ header {
   margin-right: 30px;
 }
 .contact-details li i {
-  color: #4db570;
+  color: #000;
   padding-right: 10px;
 }
 .contact-details li a {
-  color: #4db570;
+  color: #000;
   font-size: 20px;
   transition: 0.48s;
 }
@@ -502,13 +504,13 @@ header {
   padding: 0 6px;
   pointer-events: none;
   background: #fff;
-  color: #4db570;
+  color: #ff6600;
   transform: translateY(-25px);
 }
 .input-wrapper input, .input-wrapper textarea {
   position: relative;
   width: 100%;
-  border: 2px solid #4db570;
+  border: 2px solid #000;
   padding: 16px 25px;
   border-radius: 10px;
   background-color: transparent;
@@ -523,10 +525,47 @@ header {
 
 /*Contact*/
 
+/*FAQ Wrapper*/
+.faq-wrapper{
+  padding-bottom: 100px;
+}
+div#faqaccordion {
+    --bs-accordion-border-color: transparent;
+}
+.accordion-item {
+    margin: 30px 0;
+    background-color: transparent;
+}
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #ff6600;
+        box-shadow: none;
+}
+.accordion-button{
+  border: 2px solid #ff6600;
+    background-color: transparent;
+}
+.accordion-item .accordion-button {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+.accordion-button:focus{
+      border-color: transparent !important;
+          box-shadow: none !important;
+}
+.accordion-body{
+  font-size: 16px;
+}
+
+/*FAQ Wrapper*/
+
+
 /*Footer*/
 
 footer {
-    background-color: #f0f7f1;
+    background-color: #ff6600;
     padding: 60px 0;
       background-image: url(../images/about-bg.svg);
   background-repeat: no-repeat;
@@ -566,13 +605,13 @@ footer {
   width: 50%;
 }
 .footer-logo li a:before {
-  background: #ff6600;
+  background: #fff;
 }
 .footer-logo li a:hover{
-  color: #ff6600 !important;
+  color: #fff !important;
 }
 .sub-footer{
-    background-color: #4db570;
+    background-color: #000;
     padding: 20px;
     text-align: center;
     color: #fff;
@@ -581,7 +620,7 @@ footer {
   color: #fff;
   transition: 0.48s;
 }
-..sub-footer a:hover{
+.sub-footer a:hover{
   color: #ff6600;
 }
 
