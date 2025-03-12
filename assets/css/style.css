@@ -295,6 +295,7 @@ header {
   padding: 10px 0;
 }
 .sub-heading{
+  font-family: 'Trebuchet MS';
  font-size: 52px;
  line-height: 62px;
  font-weight: bold;
