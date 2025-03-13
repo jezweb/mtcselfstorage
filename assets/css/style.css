@@ -85,11 +85,12 @@ p{
     font-weight: 400;
     src: local('Yu Gothic Regular'), url('../css/fonts/yu-gothic-regular.woff') format('woff');
 }
+*/
 .mtc-btn, .heading, .sub-heading, .nav-link, .choose-box h4, .solution-heading h3, .accordion-item .accordion-button, 
 .input-wrapper label, .contact-details a, .footer-logo li a {
   font-family: 'Trebuchet MS';
 }
-*/
+
 
 /**-------------------------
 2. PreLoader CSS Starts
