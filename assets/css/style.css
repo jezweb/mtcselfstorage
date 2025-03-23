@@ -612,7 +612,7 @@ div#faqaccordion {
 
 footer {
     background-color: #ff6600;
-    padding: 60px 0;
+    padding: 1rem 0;
       background-image: url(../images/about-bg.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -624,7 +624,7 @@ footer {
   padding: 0 20px;
 }
 .footer-logo img{
-  max-width: 400px;
+  max-width: 650px;
   width: 100%;
   margin-bottom: 40px;
 }
