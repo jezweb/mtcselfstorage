@@ -519,7 +519,7 @@ header {
 }
 .contact-details a {
   color: #000;
-  font-size: 20px;
+  font-size: 1rem;
   transition: 0.48s;
 }
 .contact-details a:hover, .contact-details a:hover i{
