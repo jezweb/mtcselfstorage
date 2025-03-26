@@ -249,7 +249,7 @@ header {
   width: 100%;
 }
 .nav-item{
-  margin: auto;
+  margin: 0 14px;
   padding: 10px;
 }
 .nav-link{
@@ -285,9 +285,9 @@ header {
 
 /*Banner*/
 
-.banner-wrapper {
+/*.banner-wrapper {
   padding: 200px 0 40px 0;
-}
+}*/
 .heading{
   font-family: 'Trebuchet MS';
   font-size: 56px;
@@ -360,23 +360,22 @@ header {
   width: 180px;
   margin: 10px 0;
 }
-
 .banner-content {
-  background-image: url(../images/mtc-5.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 100% -28%;
-  padding: 190px 70px 100px 70px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+    background-image: url(../images/mtc-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% -28%;
+    padding: 190px 70px 100px 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .banner-text {
-  background-color: #ffffff94;
-  padding:50px;
-  border-radius: 20px;
+    background-color: #ffffff94;
+    padding:50px;
+    border-radius: 20px;
 }
 .banner-text p{
-font-weight: bold;
+  font-weight: bold;
 }
 
 /*Banner*/
@@ -537,7 +536,7 @@ font-weight: bold;
 }
 .contact-details a {
   color: #000;
-  font-size: 1rem;
+  font-size: 20px;
   transition: 0.48s;
 }
 .contact-details a:hover, .contact-details a:hover i{
@@ -630,7 +629,7 @@ div#faqaccordion {
 
 footer {
     background-color: #ff6600;
-    padding: 1rem 0;
+    padding: 60px 0;
       background-image: url(../images/about-bg.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -642,7 +641,7 @@ footer {
   padding: 0 20px;
 }
 .footer-logo img{
-  max-width: 650px;
+  max-width: 400px;
   width: 100%;
   margin-bottom: 40px;
 }
