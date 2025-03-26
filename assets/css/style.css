@@ -680,6 +680,9 @@ footer {
     color: #fff;
     font-size:0.9rem;
 }
+.sub-footer h6 {
+  font-size: 0.9rem;
+}
 .sub-footer a{
   color: #fff;
   transition: 0.48s;
