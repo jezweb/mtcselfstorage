@@ -361,6 +361,24 @@ header {
   margin: 10px 0;
 }
 
+.banner-content {
+  background-image: url(../images/mtc-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% -28%;
+  padding: 190px 70px 100px 70px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.banner-text {
+  background-color: #ffffff94;
+  padding:50px;
+  border-radius: 20px;
+}
+.banner-text p{
+font-weight: bold;
+}
+
 /*Banner*/
 
 /*About*/
