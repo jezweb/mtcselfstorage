@@ -361,7 +361,7 @@ header {
   margin: 10px 0;
 }
 .banner-content {
-    background-image: url(../images/mtc-5.jpg);
+    background-image: url(../images/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% -28%;
