@@ -361,11 +361,20 @@ header {
   margin: 10px 0;
 }
 .banner-content {
+  /*
     background-image: url(../images/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% -28%;
     padding: 190px 70px 100px 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    */
+    background-image: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% -28%;
+    padding: 250px 70px 100px 70px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
