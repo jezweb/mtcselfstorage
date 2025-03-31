@@ -628,13 +628,21 @@ div#faqaccordion {
 /*Footer*/
 
 footer {
-    background-color: #ff6600;
+    /*background-color: #ff6600;
     padding: 60px 0;
       background-image: url(../images/about-bg.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   text-align: center;
+  */
+  background-color: #ff6600;
+    padding: 40px 0;
+    background-image: url(../images/about-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
 }
 .footer-logo li{
   display: inline-block;
