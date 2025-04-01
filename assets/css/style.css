@@ -434,8 +434,17 @@ header {
     text-align: center;
     padding: 40px 20px;
     border-radius: 20px;
+    background-color: #fff1e8;
+    box-shadow: 0px 0px 2px 0px #ff6600;
+    /*
+    overflow: hidden;
+    margin: 20px 10px;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 20px;
     background-color: transparent;
     box-shadow: 0px 0px 2px 0px #ff6600;
+    */
   /*  background-image: url(../images/about-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
