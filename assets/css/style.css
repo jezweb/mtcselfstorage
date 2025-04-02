@@ -421,6 +421,7 @@ header {
     transform: scale(1.2); 
   }
 
+  .pt180 {padding-top:180px;}
 
   /*About*/
 
@@ -444,15 +445,16 @@ header {
     border-radius: 20px;
     background-color: transparent;
     box-shadow: 0px 0px 2px 0px #ff6600;
-    */
-  /*  background-image: url(../images/about-bg.svg);
+    
+    background-image: url(../images/about-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;*/
-  }
- /* .choose-wrap:hover{
+    background-position: top center;
+  
+  .choose-wrap:hover{
     background-color: #ff660017;
-  }*/
+    */
+  }
   .choose-box {
    transition: transform .500s ease-out;
    overflow: hidden;
