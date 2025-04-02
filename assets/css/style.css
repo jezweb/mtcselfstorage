@@ -417,9 +417,11 @@ header {
     transition: transform .5000s ease-out;
     overflow: hidden;
   }
+  /*
   .abt-image img:hover{
     transform: scale(1.2); 
   }
+  */
 
   .pt180 {padding-top:180px;}
 
