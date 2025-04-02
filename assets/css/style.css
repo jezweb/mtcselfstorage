@@ -631,14 +631,12 @@ div#faqaccordion {
     background-color: transparent;
 }
 .accordion-item .accordion-button {
-    border-top-left-radius: 10px !important;
-    border-top-right-radius: 10px !important;
-    border-bottom-left-radius: 10px !important;
-    border-bottom-right-radius: 10px !important;
+    border-radius: 10px !important;
+
     font-size: 18px;
 }
 .accordion-button:focus{
-      border-color: transparent !important;
+      
           box-shadow: none !important;
 }
 .accordion-body{
