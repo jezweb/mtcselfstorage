@@ -624,6 +624,7 @@ div#faqaccordion {
     color: #fff;
     background-color: #ff6600;
         box-shadow: none;
+        border: 2px solid #ff6600;
 }
 .accordion-button{
   border: 2px solid #ff6600;
