@@ -634,9 +634,10 @@ div#faqaccordion {
     border-radius: 10px !important;
 
     font-size: 18px;
+    border: 2px solid #ff6600;
 }
 .accordion-button:focus{
-      
+  border: 2px solid #ff6600;
           box-shadow: none !important;
 }
 .accordion-body{
