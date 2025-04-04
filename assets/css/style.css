@@ -98,7 +98,7 @@ p{
 
 .nav-item {
   margin: auto;
-  padding: 10px 8px;
+  padding: 9px;
 }
 h4.logo-title {
   font-weight: bold;
@@ -106,13 +106,12 @@ h4.logo-title {
   font-family: 'Trebuchet MS';
 }
 
-Deepinder Kaur, 17 min
-, Edited
 h4.logo-number {
   font-weight: bold;
   font-size: 24px;
   font-family: 'Trebuchet MS';
 }
+
 h4.logo-address {
   font-weight: bold;
   font-size: 24px;
