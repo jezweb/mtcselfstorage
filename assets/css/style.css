@@ -660,6 +660,7 @@ footer {
   background-position: center;
   text-align: center;
   */
+  /*
   background-color: #ff6600;
     padding: 1.7rem 0;
     background-image: url(../images/about-bg.svg);
@@ -667,6 +668,16 @@ footer {
     background-size: contain;
     background-position: center;
     text-align: center;
+    */
+    background-color: #ff6600;
+    padding: 18px 0;
+    background-image: url(../images/about-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    text-shadow: 2px 0px 0px #ffffff;
+
 }
 .footer-logo li{
   display: inline-block;
