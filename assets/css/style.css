@@ -96,6 +96,39 @@ p{
 2. PreLoader CSS Starts
 -------------------------**/
 
+.nav-item {
+  margin: auto;
+  padding: 10px 8px;
+}
+h4.logo-title {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Trebuchet MS';
+}
+
+Deepinder Kaur, 17 min
+, Edited
+h4.logo-number {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Trebuchet MS';
+}
+h4.logo-address {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Trebuchet MS';
+}
+a.navbar-brand {
+  position: relative;
+  left: -10px;
+}
+
+
+
+
+
+
+
 .no-js #loader {
   display: none;
 }
@@ -676,7 +709,7 @@ footer {
     background-size: contain;
     background-position: center;
     text-align: center;
-    text-shadow: 2px 0px 0px #ffffff;
+    
 
 }
 .footer-logo li{
