@@ -952,6 +952,9 @@ footer {
     color: #ff6600;
 }
 
+footer h4 {
+  text-shadow: 2px 1px 1px #ffffff;
+}
 
 /*Footer*/
 
