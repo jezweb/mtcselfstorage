@@ -378,6 +378,7 @@ header {
     display: inline-block;
     transition: 0.48s;
     position: relative;
+    font-size:1rem!important;
 }
 
 .nav-link:before {
