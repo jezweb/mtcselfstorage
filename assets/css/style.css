@@ -277,6 +277,8 @@ PreLoader CSS Ends
 
 /*Header*/
 
+.main-logo {width:80%;}
+
 header {
     position: fixed;
     width: 100%;
@@ -369,16 +371,26 @@ header {
 
 .nav-item {
     margin: auto;
-    padding: 10px;
+    padding: 8px;
 }
 
 .nav-link {
+    /*
     color: #000 !important;
     padding: 0 !important;
     display: inline-block;
     transition: 0.48s;
     position: relative;
     font-size:17px!important;
+    */
+    
+        color: #000 !important;
+        padding: 0 !important;
+        display: inline-block;
+        transition: 0.48s;
+        position: relative;
+        font-size: 19px !important;
+    
 }
 
 .nav-link:before {
