@@ -35,11 +35,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarContent">
+
+        <!--
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li onclick="scrollToShowTitle('#linkSection')" class="nav-item">
+          <li onclick="scrollToElementWithOffset('#linkSection')" class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
@@ -52,6 +54,27 @@
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
+      -->
+
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="scrollToElementWithOffset('#about', 100)">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="scrollToElementWithOffset('#choose', 100)">Why Choose Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="scrollToElementWithOffset('#faq', 100)">FAQ's</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="scrollToElementWithOffset('#contact', 100)">Contact</a>
+        </li>
+      </ul>
+
+      
       </div>
     </nav>
 </div>
