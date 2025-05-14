@@ -20,19 +20,19 @@ document.getElementById('year').textContent = currentYear;
 
 
 // Function to scroll to an element with an offset (to avoid cutting off the title)
-function scrollToElementWithOffset(targetSelector, offset) {
-    const targetElement = document.querySelector(targetSelector);
-    if (targetElement) {
-        // Get the position of the target element
-        const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-
-        // Scroll to the target position with an offset
-        window.scrollTo({
-            top: targetPosition - offset,  // Adjust the scroll position to account for the offset
-            behavior: 'smooth'  // Smooth scroll effect
-        });
+function scrollToShowTitle(elementId) {
+    const headerHeight = document.querySelector('header').offsetHeight;
+    const element = document.getElementById(elementId);
+  
+    if (element) {
+      const elementPosition = element.offsetTop;
+      const offsetPosition = elementPosition - headerHeight - 20; // Subtract header height and add an extra 20px offset
+  
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
     }
-}
-
+  }
 
 
