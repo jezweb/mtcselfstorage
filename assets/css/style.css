@@ -844,6 +844,10 @@ div#faqaccordion {
     background-color: transparent;
 }
 
+.accordion-item:nth-child(5n) {
+    margin-bottom: 0!important;
+}
+
 .accordion-button:not(.collapsed) {
     color: #fff;
     background-color: #ff6600;
