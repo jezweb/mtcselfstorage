@@ -675,6 +675,9 @@ li.nav-item.active .nav-link:before {
 
 /*Choose*/
 
+.choose-row .col-xs-12:nth-last-child(-n + 3) .choose-wrap {
+    margin-bottom: 0!important;
+}
 
 /*Solution*/
 
