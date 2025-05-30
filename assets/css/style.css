@@ -132,7 +132,18 @@ p {
     font-display: swap;
 }
 
-
+@font-face {
+    font-family: 'Mimi MF';
+    src: url('fonts/MimiMF.eot');
+    src: url('fonts/MimiMF.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MimiMF.woff2') format('woff2'),
+        url('fonts/MimiMF.woff') format('woff'),
+        url('fonts/MimiMF.ttf') format('truetype'),
+        url('fonts/MimiMF.svg#MimiMF') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 .mtc-btn,
@@ -145,7 +156,8 @@ p {
 .input-wrapper label,
 .contact-details a,
 .footer-logo li a {
-    font-family: 'Trebuchet MS';
+    /*font-family: 'Trebuchet MS';*/
+    font-family: 'Mimi MF';
 }
 
 
