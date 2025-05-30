@@ -162,7 +162,7 @@ p {
 .accordion-item .accordion-button {
     font-family: 'Mimi MF';
     font-weight: 400;
-    font-size: 1rem;
+    
 }
 
 /**-------------------------
@@ -883,7 +883,7 @@ div#faqaccordion {
 }
 
 .accordion-body {
-    font-size: 1rem;
+    font-size: 18px;
     
 }
 
