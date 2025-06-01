@@ -17,12 +17,19 @@ RESPONSIVE CSS STARTS
 
     .banner-text {
         padding:1rem;
+        background:rgba(255,255,255,0.6);
     }
+
+     .banner-text p {
+        font-size:1.2rem;
+        line-height:1.4;
+     }
 
     .heading, .sub-heading {
         font-size:2.5rem;
         line-height:1.2;
     }
+
 }
 
 
@@ -38,7 +45,13 @@ RESPONSIVE CSS STARTS
 
     .banner-text {
         padding:1rem;
+        background:rgba(255,255,255,0.7);
     }
+
+    .banner-text p {
+        font-size:1.3rem;
+        line-height:1.4;
+     }
 
     .heading, .sub-heading {
         font-size:2rem;
@@ -55,7 +68,11 @@ RESPONSIVE CSS STARTS
         line-height:1.4;
     }
 
-    
+    p {
+        font-size:1.4rem;
+    }
+
+
 }
 
 
