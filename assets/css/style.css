@@ -156,13 +156,13 @@ p {
 .contact-details a,
 .footer-logo li a {
     font-family: 'Trebuchet MS';
-    
+
 }
 
 .accordion-item .accordion-button {
     font-family: 'Mimi MF';
     font-weight: 400;
-    
+
 }
 
 /**-------------------------
@@ -258,6 +258,7 @@ a.navbar-brand {
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(720deg);
     }
@@ -267,6 +268,7 @@ a.navbar-brand {
     from {
         transform: rotate(360deg);
     }
+
     to {
         transform: rotate(0deg);
     }
@@ -285,14 +287,16 @@ PreLoader CSS Ends
 
 /*Header*/
 
-.main-logo {width:100%;}
+.main-logo {
+    width: 100%;
+}
 
 header {
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 3;
-    padding: 10px;
+    padding: 20px 10px;
     background-color: #ff6600;
     box-shadow: 0 2px 10px #b3beb6;
 }
@@ -391,18 +395,18 @@ header {
     position: relative;
     font-size:17px!important;
     */
-    
-        color: #000 !important;
-        padding: 0 !important;
-        display: inline-block;
-        transition: 0.48s;
-        position: relative;
-        font-size: 19px !important;
-        cursor: pointer;
+
+    color: #000 !important;
+    padding: 0 !important;
+    display: inline-block;
+    transition: 0.48s;
+    position: relative;
+    font-size: 19px !important;
+    cursor: pointer;
 
 
-        
-    
+
+
 }
 
 .nav-link:before {
@@ -684,7 +688,7 @@ li.nav-item.active .nav-link:before {
 /*Choose*/
 
 .choose-row .col-xs-12:nth-last-child(-n + 3) .choose-wrap {
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
 }
 
 /*Solution*/
@@ -856,7 +860,7 @@ div#faqaccordion {
 }
 
 .accordion-item:nth-child(5n) {
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -884,7 +888,7 @@ div#faqaccordion {
 
 .accordion-body {
     font-size: 18px;
-    
+
 }
 
 
@@ -920,7 +924,7 @@ footer {
     display: inline-block;
     transition: 0.48s;
     position: relative;
-    font-size:19px;
+    font-size: 19px;
 }
 
 .footer-logo li a:before {
@@ -971,7 +975,7 @@ footer {
 }
 
 footer h4 {
-  text-shadow: 2px 1px 1px #ffffff;
+    text-shadow: 2px 1px 1px #ffffff;
 }
 
 /*Footer*/
