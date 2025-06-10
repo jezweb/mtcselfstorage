@@ -9,37 +9,92 @@ Responsive Grid Media Queries - 1280, 1024, 768, 480 for "MTC Self Storage"
 /* --------------------------------------------
 RESPONSIVE CSS STARTS
 -------------------------------------------- */
-@media (min-width: 768px) and (max-width: 1023px) {
 
-    body {
-        -webkit-text-size-adjust: unset!important;
-    }
+@media only screen and (max-width: 767px) {
+        .sub-heading {
+    font-size: 40px;
+    line-height: 46px;
+}
+ .heading {
+    font-size: 30px;
+    line-height: 38px;
+}
 
-    .container, .container-md, .container-sm {
-        max-width: 1024px!important;
-        width:100%!important;
-    }
+.banner-text
+ {
+    padding: 24px;
+}
+.banner-content {
+    padding: 250px 30px 100px 30px;
+}
+.mtc-btn {
+    font-size: 18px;
+    padding: 15px 24px;
+}
+p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.btn-wrap {
+    margin-top: 15px;
+}
 
-    .banner-text {
-        padding:1rem;
-        background:rgba(255,255,255,0.6);
-    }
 
-     .banner-text p {
-        font-size:1.2rem;
-        line-height:1.4;
-     }
-
-    .heading, .sub-heading {
-        font-size:2.5rem;
-        line-height:1.2;
-    }
-
-    p {
-        font-size:1.2rem;
-    }
 
 }
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+.main-logo {
+    width: 70%;
+}
+
+.navbar-brand img{
+width: 80%;
+}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+.heading {
+    font-size: 42px;
+    line-height: 48px;
+}
+    .banner-text p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .sub-heading {
+    font-size: 40px;
+    line-height: 46px;
+}
+
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .heading {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .banner-text p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+       .sub-heading {
+    font-size: 40px;
+    line-height: 46px;
+}
+
+
+}
+
+
+
+
 
 /*
 @media (min-width: 0px) and (max-width: 767px) {
