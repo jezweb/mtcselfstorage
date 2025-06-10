@@ -92,7 +92,29 @@ width: 80%;
 
 }
 
+@media only screen and (max-width: 480px) {
+        .sub-heading {
+    font-size: 40px;
+    line-height: 46px;
+}
+ .heading {
+    font-size: 30px;
+    line-height: 38px;
+}
+.banner-text
+ {
+    padding: 24px;
+}
+.banner-content {
+    padding: 250px 30px 100px 30px;
+}
+p {
+    font-size: 16px;
+    line-height: 26px;
+}
 
+
+}
 
 
 
