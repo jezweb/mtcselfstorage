@@ -9,11 +9,7 @@ Responsive Grid Media Queries - 1280, 1024, 768, 480 for "MTC Self Storage"
 /* --------------------------------------------
 RESPONSIVE CSS STARTS
 -------------------------------------------- */
-@media (min-width: 768px) {
-    .container, .container-md, .container-sm {
-        max-width: 900px !important;
-    }
-}
+
 
 
 
