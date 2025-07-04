@@ -127,19 +127,26 @@ a.navbar-brand {
         padding: 200px 20px 60px 20px;
     }
     .contact-details a {
-        padding: 4px 10px;
+        padding: 4px 0px;
         display: block;
     }
+.map-wrapper img{
+    height: 100%;
+}
+header .navbar-brand img{
+display: none;
+}
+.main-logo {
+    width: 90%;
+}
+header {
+    padding: 15px 10px;
+}
 
-    header .navbar-brand img{
-    display: none;
-    }
-    .main-logo {
-        width: 90%;
-    }
-    header {
-        padding: 15px 10px;
-    }
+.mtc-btn {
+    width: 100%;
+    text-align: center;
+}
 
 
 }
@@ -152,4 +159,3 @@ a.navbar-brand {
 /* --------------------------------------------
 RESPONSIVE CSS ENDS
 -------------------------------------------- */
-
