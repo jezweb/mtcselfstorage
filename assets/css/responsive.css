@@ -15,71 +15,69 @@ RESPONSIVE CSS STARTS
 
 
 @media only screen and (max-width: 767px) {
-     .container, .container-md, .container-sm {
-        max-width: 900px !important;
+    .sub-heading {
+        font-size: 40px;
+        line-height: 46px;
     }
+    .heading {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .banner-text
+    {
+        padding: 24px;
+    }
+    .banner-content {
+        padding: 250px 30px 100px 30px;
+    }
+    .mtc-btn {
+        font-size: 18px;
+        padding: 15px 24px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .btn-wrap {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .map-wrapper {
+        padding: 20px 0 60px 0;
+    }
+    body {
+    background-repeat: repeat;
 }
-
-
-
-
-@media only screen and (max-width: 767px) {
-        .sub-heading {
-    font-size: 40px;
-    line-height: 46px;
+a.navbar-brand {
+    left: 0px;
 }
- .heading {
-    font-size: 30px;
-    line-height: 38px;
-}
-
-.banner-text
- {
-    padding: 24px;
-}
-.banner-content {
-    padding: 250px 30px 100px 30px;
-}
-.mtc-btn {
-    font-size: 18px;
-    padding: 15px 24px;
-}
-p {
-    font-size: 16px;
-    line-height: 26px;
-}
-.btn-wrap {
-    margin-top: 15px;
-}
-
 
 
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
-.main-logo {
-    width: 70%;
-}
-
-.navbar-brand img{
-width: 80%;
-}
+    .main-logo {
+        width: 70%;
+    }
+    .navbar-brand img{
+        width: 80%;
+    }
 
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
-.heading {
-    font-size: 42px;
-    line-height: 48px;
-}
+    .heading {
+        font-size: 42px;
+        line-height: 48px;
+    }
     .banner-text p {
         font-size: 17px;
         line-height: 28px;
     }
     .sub-heading {
-    font-size: 40px;
-    line-height: 46px;
-}
+        font-size: 40px;
+        line-height: 46px;
+    }
 
 
 }
@@ -97,33 +95,52 @@ width: 80%;
         font-size: 17px;
         line-height: 28px;
     }
-       .sub-heading {
-    font-size: 40px;
-    line-height: 46px;
-}
+    .sub-heading {
+        font-size: 40px;
+        line-height: 46px;
+    }
 
 
 }
 
 @media only screen and (max-width: 480px) {
-        .sub-heading {
-    font-size: 40px;
-    line-height: 46px;
+    .sub-heading {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .heading {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .banner-text
+    {
+        padding: 24px;
+    }
+    .banner-content {
+        padding: 250px 30px 100px 30px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner-content{
+        padding: 200px 20px 60px 20px;
+    }
+    .contact-details a {
+        padding: 4px 10px;
+        display: block;
+    }
+.map-wrapper img{
+    height: 100%;
 }
- .heading {
-    font-size: 30px;
-    line-height: 38px;
+header .navbar-brand img{
+display: none;
 }
-.banner-text
- {
-    padding: 24px;
+.main-logo {
+    width: 90%;
 }
-.banner-content {
-    padding: 250px 30px 100px 30px;
-}
-p {
-    font-size: 16px;
-    line-height: 26px;
+header {
+    padding: 15px 10px;
 }
 
 

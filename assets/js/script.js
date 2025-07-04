@@ -34,4 +34,16 @@ function scrollToElementWithOffset(targetSelector, offset) {
     }
 }
 
+  document.addEventListener('DOMContentLoaded', function () {
+    const navbarCollapse = document.getElementById('navbarContent');
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
 
+    navLinks.forEach(function(link) {
+      link.addEventListener('click', function () {
+        const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+        if (bsCollapse && navbarCollapse.classList.contains('show')) {
+          bsCollapse.hide();
+        }
+      });
+    });
+  });
