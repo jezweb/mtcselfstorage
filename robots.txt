@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /ads.txt
+Disallow: /apple-app-site-association
+Disallow: /.well-known*
+Disallow: */1000*
+
+Sitemap: https://mtcselfstorage.com.au/sitemap.xml
